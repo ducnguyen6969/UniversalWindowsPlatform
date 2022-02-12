@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\DEV\\C#\\UniversalApp\\UniversalWindowsPlatform\\T2012_HelloWorld\\DemoSqlite\\DemoSqlite.csproj": {}
+  },
+  "projects": {
+    "E:\\DEV\\C#\\UniversalApp\\UniversalWindowsPlatform\\T2012_HelloWorld\\DemoSqlite\\DemoSqlite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DEV\\C#\\UniversalApp\\UniversalWindowsPlatform\\T2012_HelloWorld\\DemoSqlite\\DemoSqlite.csproj",
+        "projectName": "DemoSqlite",
+        "projectPath": "E:\\DEV\\C#\\UniversalApp\\UniversalWindowsPlatform\\T2012_HelloWorld\\DemoSqlite\\DemoSqlite.csproj",
+        "packagesPath": "C:\\Users\\HL2020\\.nuget\\packages\\",
+        "outputPath": "E:\\DEV\\C#\\UniversalApp\\UniversalWindowsPlatform\\T2012_HelloWorld\\DemoSqlite\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HL2020\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.17763"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17763": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.17763": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.12, )"
+            },
+            "Microsoft.Toolkit.Uwp.UI.Controls": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "SQLitePCL": {
+              "target": "Package",
+              "version": "[3.8.7.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
