@@ -1,4 +1,5 @@
-﻿using SQLitePCL;
+﻿using ExamProject.Entity;
+using SQLitePCL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,9 @@ namespace ExamProject.Configs
 {
     class Crud
     {
-          public static bool Create()
+        private static SQLiteConnection sQLiteConnection = new SQLiteConnection("Contact.db");
+
+        public static bool Create()
         {
             var conn = new SQLiteConnection("Contact.db");
             string sql = @"CREATE TABLE IF NOT EXISTS    
@@ -32,7 +35,7 @@ namespace ExamProject.Configs
                     "VALUES (?,?)";
                 using (var spmt = conn.Prepare(stmt))
                 {
-                    if (name == null)
+                    if (name == "")
                     {
                         errName = "*Name is required !";
                         return false;
@@ -43,7 +46,7 @@ namespace ExamProject.Configs
                         spmt.Bind(1, name.ToString());
                     }
 
-                    if (phone == null)
+                    if (phone == "")
                     {
                         errPhone = "*Phone is required !";
                         return false;
@@ -63,5 +66,48 @@ namespace ExamProject.Configs
                 throw ex;
             }
         }
+        public List<Contact> ShowList()
+        {
+            var infoData = new List<Contact>();
+            var sql = "SELECT * FROM Contact";
+
+            using (var stt = sQLiteConnection.Prepare(sql))
+            {
+                while (stt.Step() == SQLiteResult.ROW)
+                {
+                    var id = Convert.ToInt32(stt["Id"]);
+                    var name = (string)stt["Name"];
+                    var desc = (string)stt["PhoneNumber"];
+
+                    var infoObj = new Contact(id, name, desc);
+                    infoData.Add(infoObj);
+                }
+            }
+            return infoData;
+        }
+
+        public List<Contact> FilterByName(string nameContact)
+        {
+            var infoData = new List<Contact>();
+            var sql = "SELECT * FROM Contact " +
+                "WHERE Name like ?";
+
+            using (var stt = sQLiteConnection.Prepare(sql))
+            {
+                stt.Bind(1, "%" + nameContact.ToString() + "%");
+                while (stt.Step() == SQLiteResult.ROW)
+                {
+                    var id = Convert.ToInt32(stt["Id"]);
+                    var name = (string)stt["Name"];
+                    var desc = (string)stt["PhoneNumber"];
+
+                    var infoObj = new Contact(id, name, desc);
+                    infoData.Add(infoObj);
+                }
+            }
+            return infoData;
+        }
+
+
     }
 }

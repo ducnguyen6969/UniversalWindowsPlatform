@@ -29,9 +29,14 @@ namespace ExamProject.Pages
             this.InitializeComponent();
         }
 
-        private void Create_Click(object sender, RoutedEventArgs e)
+        private void CreateClick(object sender, RoutedEventArgs e)
         {
             crud.CreateContact(txtName.Text, txtPhone.Text, nameErr.Text, phoneErr.Text);
         }
+        private void ListClick(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
+        }
+
     }
 }

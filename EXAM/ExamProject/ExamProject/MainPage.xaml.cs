@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ExamProject.Configs;
+using ExamProject.Entity;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,9 +24,62 @@ namespace ExamProject
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private Crud crud = new Crud();
         public MainPage()
         {
             this.InitializeComponent();
+            this.Loaded += Page_Loaded;
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            ListData.ItemsSource = crud.ShowList();
+        }
+
+        private void txtFindName_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            nameErr.Text = "";
+        }
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (ValidateDate() == true)
+            {
+                ListData.ItemsSource = crud.FilterByName(txtFindName.Text);
+            }
+        }
+        private bool ValidateDate()
+        {
+            if (txtFindName.Text == "")
+            {
+                nameErr.Text = "*Please choose the name !";
+                return false;
+            }
+
+            return true;
+        }
+        private void Reset_Click(object sender, RoutedEventArgs e)
+        {
+            ListData.ItemsSource = crud.ShowList();
+            txtID.Text = "";
+            txtName.Text = "";
+            txtPhone.Text = "";
+            nameErr.Text = "";
+        }
+        private void Create_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Pages.CreateContact));
+        }
+        private void ListData_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (ListData.SelectedItem != null)
+            {
+                Contact ct = (Contact)ListData.SelectedItem;
+                txtID.Text = "ID : " + ct.ID.ToString();
+                txtName.Text = "Name : " + ct.Name.ToString();
+                txtPhone.Text = "Phone : " + ct.PhoneNumber.ToString();
+            }
         }
     }
 }
