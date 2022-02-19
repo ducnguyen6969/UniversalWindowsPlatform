@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExamProject.Configs;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,6 +23,7 @@ namespace ExamProject.Pages
     /// </summary>
     public sealed partial class CreateContact : Page
     {
+        Crud crud = new Crud();
         public CreateContact()
         {
             this.InitializeComponent();
@@ -29,7 +31,7 @@ namespace ExamProject.Pages
 
         private void Create_Click(object sender, RoutedEventArgs e)
         {
-
+            crud.CreateContact(txtName.Text, txtPhone.Text, nameErr.Text, phoneErr.Text);
         }
     }
 }

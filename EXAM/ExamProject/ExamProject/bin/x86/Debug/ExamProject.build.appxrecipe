@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>20124b3b-4c4d-44e5-a810-ee660abf6128</PackageIdentityName>
     <PackageIdentityPublisher>CN=HL2020</PackageIdentityPublisher>
-    <IntermediateOutputPath>E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\ExamProject.exe">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\ExamProject.exe">
       <PackagePath>entrypoint\ExamProject.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -43,55 +43,55 @@
     <AppxPackagedFile Include="C:\Users\HL2020\.nuget\packages\sqlitepcl\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
       <PackagePath>SQLitePCL.Ext.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\ExamProject.xr.xml">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\ExamProject.xr.xml">
       <PackagePath>ExamProject.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\Pages\CreateContact.xbf">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\Pages\CreateContact.xbf">
       <PackagePath>Pages\CreateContact.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\Core\ExamProject.exe">
+    <AppxPackagedFile Include="E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\bin\x86\Debug\Core\ExamProject.exe">
       <PackagePath>ExamProject.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

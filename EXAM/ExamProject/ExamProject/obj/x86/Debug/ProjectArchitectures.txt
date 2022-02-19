@@ -1,1 +1,1 @@
-E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\ExamProject.csproj;x86
+E:\DEV\C#\UniversalApp\UniversalWindowsPlatform\UniversalWindowsPlatform\EXAM\ExamProject\ExamProject\ExamProject.csproj;x86

@@ -8492,11 +8492,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DEV\\C#\\UniversalApp\\UniversalWindowsPlatform\\EXAM\\ExamProject\\ExamProject\\ExamProject.csproj",
+      "projectUniqueName": "E:\\DEV\\C#\\UniversalApp\\UniversalWindowsPlatform\\UniversalWindowsPlatform\\EXAM\\ExamProject\\ExamProject\\ExamProject.csproj",
       "projectName": "ExamProject",
-      "projectPath": "E:\\DEV\\C#\\UniversalApp\\UniversalWindowsPlatform\\EXAM\\ExamProject\\ExamProject\\ExamProject.csproj",
+      "projectPath": "E:\\DEV\\C#\\UniversalApp\\UniversalWindowsPlatform\\UniversalWindowsPlatform\\EXAM\\ExamProject\\ExamProject\\ExamProject.csproj",
       "packagesPath": "C:\\Users\\HL2020\\.nuget\\packages\\",
-      "outputPath": "E:\\DEV\\C#\\UniversalApp\\UniversalWindowsPlatform\\EXAM\\ExamProject\\ExamProject\\obj\\",
+      "outputPath": "E:\\DEV\\C#\\UniversalApp\\UniversalWindowsPlatform\\UniversalWindowsPlatform\\EXAM\\ExamProject\\ExamProject\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
